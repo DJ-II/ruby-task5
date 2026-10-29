@@ -1,0 +1,10 @@
+/.bundle
+/vendor/bundle
+/log
+/tmp
+/.env
+/.env.*
+!/.env.example
+.DS_Store
+/footage_sources/*/*
+!/footage_sources/*/.gitkeep

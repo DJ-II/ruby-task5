@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ruby-task5
+    runtime: ruby
+    plan: free
+    buildCommand: bundle install
+    startCommand: bundle exec ruby app.rb
+    envVars:
+      - key: RACK_ENV
+        value: production
